@@ -61,7 +61,6 @@ with col2:
 		)
 	st.write("🪪",EMAIL)
 st.write("---")
-
 # --- SOCIAL LINKS ---
 st.write("#")
 cols = st.columns(len(SOCIAL_MEDIA))
