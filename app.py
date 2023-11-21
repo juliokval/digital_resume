@@ -30,12 +30,6 @@ PROJECT = {
 }
 
 
-
-
-
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-
-
 # --- LOAD CSS, PDF & PROFILE PIC ---
 with open(css_file) as f:
 	st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
